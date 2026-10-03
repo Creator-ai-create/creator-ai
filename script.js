@@ -440,7 +440,7 @@ make answer short not too short average but perfect point wise use emojis and do
         // Gemini API key stays on the server.
 
         const response = await fetch(
-        'https://creator-ai-orpin.vercel.app/api/chat',
+        'https://creator-ai-487b.vercel.app/api/chat',
             {
                 method: "POST",
 
