@@ -432,7 +432,7 @@ make answer short not too short average but perfect point wise use emojis and do
             "🤖 AI is thinking and generating content...";
     }
 
-
+  
     try {
 
         // IMPORTANT:
@@ -440,7 +440,7 @@ make answer short not too short average but perfect point wise use emojis and do
         // Gemini API key stays on the server.
 
         const response = await fetch(
-            "http://localhost:3000/api/chat",
+        'https://creator-ai-orpin.vercel.app/api/chat',
             {
                 method: "POST",
 
